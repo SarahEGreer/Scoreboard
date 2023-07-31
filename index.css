@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team {
+    color: #EEEEEE;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.score-box {
+    display: flex;
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    font-family: 'Orbitron', sans-serif;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#home-score {
+    background-color: #080001;
+    color: #F94F6D;
+    font-size: 75px;
+}
+
+#guest-score {
+    background-color: #080001;
+    color: #F94F6D;
+    font-size: 75px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+
+}
+
+button {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    background-color: transparent;
+    color: #9AABD8;
+    padding: 7px 10px;
+    border-radius: 5px;
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+button:hover {
+    background-color: #9AABD8;
+    color: #fff;
+    border: 2px solid #fff;
+    transition: .15s;
+
+}
+
+button:active {
+    color: #1B244A;
+    border: 2px solid #1B244A;
+}
