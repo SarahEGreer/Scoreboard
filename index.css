@@ -1,11 +1,18 @@
 body {
     margin: 0;
     background-color: #1B244A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+    width: 100%;
+    max-width: 700px;
+
 }
 
 .team {
